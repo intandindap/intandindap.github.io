@@ -93,6 +93,63 @@
     transform: rotate(-180deg);
   }
   
+  /***details***/
+  .details {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    width: 95%;
+    margin: auto;
+  }
+  .details ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    text-align: left;
+  }
+  .details ul li {
+    color: #4b4c4f;
+    padding: 0.5rem;
+  }
+  .details b {
+    color: #00445A;
+    letter-spacing: 1.3px;
+  }
+  .details .about {
+    line-height: 1.5rem;
+  }
+  
+  /***Project section***/
+  .projects {
+    width: 100%;
+  }
+  
+  .project {
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid #0000001A;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  .project i{
+    font-size: 2rem;
+    color: #26CAFF;
+  }
+  
+  .project ul {
+    list-style-type: none;
+    line-height: 0.2rem;
+    margin-left: 0.8rem;
+  }
+  
+  .project ul li {
+    word-wrap: break-word;
+    color: #000;
+  }
+  
+  .project ul small {
+    color: #909090;
+  }
+  
   /*****All social media btn*****/
   .social-media {
     width: 100%;
